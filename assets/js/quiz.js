@@ -60,7 +60,7 @@ const dateSteps = [
   },
   {
     title: "Selectionne l'après repas :",
-    options: ["Film cosy", "Massage ++", "Manger un brownie", "Tous les trois"]
+    options: ["Film cosy", "Massage ++", "Manger un brownie sur tes fesses", "Tous les trois"]
   }
 ];
 
