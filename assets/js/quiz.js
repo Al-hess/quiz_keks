@@ -1,7 +1,7 @@
 // Personnalise les questions et les messages de cette présentation.
 const questions = [
-  "Salut et bienvenue au quiz ! Réponds aux questions librement :)",
-  "D'abord, je dois m'assurer que tu es bien Kelia... Réponds correctement aux questions suivantes et on pourra continuer !",
+  "Salut et bienvenue au quiz ! Oui j'ai fait ça à la place de travailler :). Réponds aux questions librement :)",
+  "D'abord, je dois m'assurer que tu sois bien Kelia... Réponds correctement aux questions suivantes et on pourra continuer !",
   "Quel est un autre mot pour décrire un temps nuageux ?",
   "De quoi Alessandro se rappellera-t-il le plus ?",
   "La nuit, tu pourrais avoir peur de..."
@@ -22,7 +22,7 @@ const answerChoices = {
 
   ],
   4: [
-    { text: "Des inconnus", correct: true },
+    { text: "Des noirs", correct: true },
     { text: "Du noir", correct: false },
     { text: "Des araignées", correct: false },
     { text: "Des cauchemars", correct: false }
@@ -160,7 +160,7 @@ function renderInvitation() {
   const slide = createSlide();
   slide.innerHTML = `
     <div class="heart" aria-hidden="true">♥</div>
-    <p class="eyebrow">Question piège !</p>
+    <p class="eyebrow">Cooool c'est vraiment toi !</p>
     <h1>Veux-tu sortir avec moi ?</h1>
     <div class="answers">
       <button class="answer btn yes magnetic-yes" data-answer="yes">Oui</button>
@@ -233,8 +233,8 @@ function renderDateInvitation() {
   const slide = createSlide();
   slide.innerHTML = `
     <div class="heart" aria-hidden="true">♥</div>
-    <p class="eyebrow">Je rigolais !</p>
-    <h1>Voici la vraie question : veux-tu sortir avec moi ?</h1>
+    <p class="eyebrow">Petite blague !</p>
+    <h1>Vraiment cette fois : veux-tu sortir avec moi ?</h1>
     <div class="answers">
       <button class="answer btn yes" data-answer="yes">Oui</button>
       <button class="answer btn no" data-answer="no">Non</button>
