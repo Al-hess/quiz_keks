@@ -36,7 +36,7 @@ const replies = [
     no: "Comment ça non ?!"
   },
   {
-    yes: "Prmière question !",
+    yes: "Première question !",
     no: "M'en fou"
   },
   {
